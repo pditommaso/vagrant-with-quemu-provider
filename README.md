@@ -6,34 +6,36 @@ Allow the use of x86 VMs on macOS Silicon via [Vagrant](https://www.vagrantup.co
 ### Get started 
 
 1. Install Vagrant and qemu 
-
+    ```
     brew install vagrant qemu
-
+    ```
+    
 2. Install Vagrant plugins 
-
+    ```
     vagrant plugin install vagrant-vbguest
     vagrant plugin install vagrant-qemu
+    ```
 
-
-3. Clone this repo 
-
+3. Clone this repo: 
+    ```
     git clone https://github.com/pditommaso/vagrant-with-quemu-provider \
       && cd vagrant-with-quemu-provider
-
+    ```
 
 4. Launch the VM
-
+    ```
     vagrant up
-
+    ```
+    
 5. SSH into it 
-
+    ```
     vagrant ssh 
-
+    ```
 
 6. Shutdown 
-
+    ```
     vagrant destroy 
-
+    ```
 
 ### Links 
 
